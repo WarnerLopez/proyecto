@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Formulario from '../Components/Formulario';
 
 
 class Home  extends Component {
@@ -6,7 +7,7 @@ class Home  extends Component {
     render() { 
         return (
             <div>
-              
+               
                 <p>asdasd</p>
 
                
