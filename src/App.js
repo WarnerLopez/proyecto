@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Contacto from './Pages/Contacto';
 import Curso from './Pages/Curso';
+import Formulario1 from './Components/Formulario1'
 //importaciones
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/contacto' element={<Contacto/>}/>
             <Route path='/Curso' element={<Curso/>}/>
+            <Route path='/Formulario1' element={<Formulario1/>}/>
+
 
             
 

@@ -35,18 +35,7 @@ const Formulario = () => {
   return ( 
 
         <>
-         
-{/* 
-         <div className="App">
-      <div>
-        {Entradas.map((item) => (
-          <div key={item.id}>
-            <h3>{item.title}</h3>
-            <p>{item.body}</p>
-          </div>
-        ))}
-      </div>
-    </div> */}
+
 
 
         <div className='container'>
