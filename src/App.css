@@ -105,3 +105,69 @@
 
   margin-top: 70px;
 }
+.formulario{
+  margin-top: 70px;
+  border-color: #000;
+  background-color: #c7c5c5;
+  box-shadow: 20px 20px 15px;
+}
+.btnup{
+margin-top: 25px;
+margin-bottom: 20px;
+}
+
+.bordes{
+margin-bottom: 10px;  
+padding: 5px;
+border-color: #0a0a0a;
+margin-right: 15px;
+
+}
+.fila{
+  margin-bottom: 15px;
+}
+body{
+  background: linear-gradient(220.55deg, #FFF6EB 0%, #DFD1C5 100%);
+}
+.navborder{
+  border-color: #fbff10;
+}
+ /* movimiento del la pagina curso */
+
+ 
+
+ /* probando   */
+
+.right-animated-div {
+  position: absolute;
+  top: 50%;
+  right: -100%;
+  transform: translate(50%, -50%);
+  animation: moveFromRight 1s forwards;
+}
+
+.left-animated-div {
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  transform: translate(-50%, -50%);
+  animation: moveFromLeft 1s forwards;
+}
+
+@keyframes moveFromRight {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 50%;
+  }
+}
+
+@keyframes moveFromLeft {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 50%;
+  }
+}
