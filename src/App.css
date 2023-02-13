@@ -1,3 +1,6 @@
+
+
+
 .App {
   text-align: center;
 }
@@ -103,7 +106,7 @@
  /* fin del boton de solicitar informacion */
 .curso{
 
-  margin-top: 70px;
+  margin-top: 150px;
 }
 .formulario{
   margin-top: 70px;
@@ -126,9 +129,7 @@ margin-right: 15px;
 .fila{
   margin-bottom: 15px;
 }
-body{
-  background: linear-gradient(220.55deg, #FFF6EB 0%, #DFD1C5 100%);
-}
+
 .navborder{
   border-color: #fbff10;
 }
@@ -138,36 +139,82 @@ body{
 
  /* probando   */
 
-.right-animated-div {
-  position: absolute;
-  top: 50%;
-  right: -100%;
-  transform: translate(50%, -50%);
-  animation: moveFromRight 1s forwards;
+
+
+
+
+
+
+.cont {
+  position: relative;
+  width: 100%;
 }
 
-.left-animated-div {
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cont:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
   position: absolute;
   top: 50%;
-  left: -100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  animation: moveFromLeft 1s forwards;
+  text-align: center;
 }
 
-@keyframes moveFromRight {
-  from {
-    right: -100%;
-  }
-  to {
-    right: 50%;
-  }
+.col{
+  flex-direction: column;
+
 }
 
-@keyframes moveFromLeft {
-  from {
-    left: -100%;
-  }
-  to {
-    left: 50%;
-  }
+
+
+
+
+.letras{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  
+  color: #333;
 }
+label{
+  margin-top: 7px;
+  
+            
+}
+
+.mi-jumbotron {
+  background-image: url(https://www.netscribes.com/wp-content/uploads/2019/06/Technology-Watch.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px #333;
+  height: 100vh;
+}
+
+.tamalogo{
+  height: 5px;
+}
+

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 
 class Navbar extends Component {
@@ -8,8 +9,11 @@ class Navbar extends Component {
         return (
 
           <>
+          
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark navborder">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <li className="nav-item active">
+                  <Link className="nav-link tamalogo navbar-brand" to="/"> <img className='imgcard' src={logo}/><span class="sr-only">(current)</span></Link>
+                </li>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
