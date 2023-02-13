@@ -8,6 +8,7 @@ import Footer from './Components/Footer';
 import Contacto from './Pages/Contacto';
 import Curso from './Pages/Curso';
 import Formulario1 from './Components/Formulario1'
+
 //importaciones
 
 function App() {
