@@ -218,3 +218,30 @@ label{
   height: 5px;
 }
 
+.footer{
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   height:auto;
+   width:100%;
+   background:#999;
+}
+
+
+.center-logo{
+
+  width: 50%;
+  height: 50px;
+  
+  margin: auto;
+
+
+}
+
+
+   
+
+
+
+
+
