@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/proyecto/static/css/main.c6949ae7.css",
-    "main.js": "/proyecto/static/js/main.b376ea66.js",
+    "main.js": "/proyecto/static/js/main.d03d5a56.js",
     "static/js/787.c1112931.chunk.js": "/proyecto/static/js/787.c1112931.chunk.js",
     "static/media/ingles.webp": "/proyecto/static/media/ingles.23ff14feeb6822c675b4.webp",
     "static/media/cisco.jfif": "/proyecto/static/media/cisco.3789762afb897ede5918.jfif",
     "static/media/marketing.jfif": "/proyecto/static/media/marketing.c8b7ba0547763efb0224.jfif",
     "index.html": "/proyecto/index.html",
     "main.c6949ae7.css.map": "/proyecto/static/css/main.c6949ae7.css.map",
-    "main.b376ea66.js.map": "/proyecto/static/js/main.b376ea66.js.map",
+    "main.d03d5a56.js.map": "/proyecto/static/js/main.d03d5a56.js.map",
     "787.c1112931.chunk.js.map": "/proyecto/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6949ae7.css",
-    "static/js/main.b376ea66.js"
+    "static/js/main.d03d5a56.js"
   ]
 }
