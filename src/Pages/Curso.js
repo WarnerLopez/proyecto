@@ -83,7 +83,7 @@ export default function Curso() {
             <div class="card-body">
               <h5 class="card-title">{miCursoM.nombre}</h5>
               <p class="card-text">
-                Duracion {miCursoM.tiempo}
+                 {miCursoM.tiempo}
               </p>
               <p class="card-text">
               {miCursoM.limite}
